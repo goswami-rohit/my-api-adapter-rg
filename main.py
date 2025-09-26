@@ -21,7 +21,7 @@ except ImportError:
 load_dotenv()
 
 # Get the API base URL from the environment
-API_BASE_URL = os.environ.get("API_BASE_URL")
+API_BASE_URL = os.environ.get("API_BASE_URL", "https://myserverbymycoco.onrender.com")
 
 if not API_BASE_URL:
     print("FATAL: API_BASE_URL environment variable is not set.")
