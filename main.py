@@ -1,7 +1,5 @@
 import os
 import httpx
-import asyncio
-import sys
 from dotenv import load_dotenv
 from fastmcp import FastMCP 
 from typing import Annotated # Required for adding metadata to types
